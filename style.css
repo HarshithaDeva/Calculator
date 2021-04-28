@@ -1,0 +1,99 @@
+body{
+	font-family: 'Open Sans',sans-serif;
+	background-image:url("https://scitechdaily.com/images/Algebra-Mathematics.gif");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+h1{
+	font-family: 'Courier New', Courier, monospace;
+	text-align: center;
+	padding-top: 10px;
+	color: rgb(62, 10, 99);
+}
+#calculator{
+	width: 320px;
+	height: 600px;
+	background-color: #e2aabb;
+	margin: 0 auto;
+	top: 40px;
+	position: relative;
+	border-radius: 10px;
+}
+#result{
+	height: 120px;
+}
+#history{
+	text-align: right;
+	height: 20px;
+	margin: 0 20px;
+	padding-top: 2px;
+	font-size: 20px;
+	color: #4b0d0d;
+}
+#output{
+	text-align: right;
+	height: 60px;
+	margin: 10px 20px;
+	font-size: 30px;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: bold;
+	color: rgb(177, 8, 42);
+	background-color: rgb(118, 202, 235);
+	border: none;
+	border-radius: 10px;
+}
+#keyboard{
+	height: 400px;
+}
+.operator, .number,.empty{
+	width: 50px;
+	height: 50px;
+	margin: 15px;
+	float: left;
+	border-radius: 50%;
+	border-width: 0;
+	font-weight: bold;
+	font-size: 15px;
+}
+.empty{
+	background-color: #e2aabb;
+}
+.number, .operator{
+	cursor: pointer;
+}
+.operator:active, .number:active{
+	font-size: 13px;
+}
+.operator:focus, .number:focus, .empty:focus{
+	outline: 0;
+}
+#clear{
+	background-color: rgb(209, 23, 23);
+}
+#backspace{
+	background-color: rgb(58, 233, 81);
+}
+button:nth-child(3){
+	font-size: 20px;
+	background-color: #9477af;
+}
+button:nth-child(4){
+	font-size: 20px;
+	background-color: #f4f75e;
+}
+button:nth-child(8){
+	font-size: 20px;
+	background-color: #f75211;
+}
+button:nth-child(12){
+	font-size: 20px;
+	background-color: #3110c2;
+} 
+button:nth-child(16){
+	font-size: 20px;
+	background-color: #20b2aa;
+}
+button:nth-child(20){
+	font-size: 20px;
+	background-color: #f30690;
+}
